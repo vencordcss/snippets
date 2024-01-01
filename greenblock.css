@@ -1,0 +1,7 @@
+.messageListItem__6a4fb:has(>.message__80c10>.contents_f41bb2>.header__39b23>.headerText_f47574>[style="color: rgb(143, 255, 164);"])
+,.repliedMessage_e2bf4a:has(>[style="color: rgb(143, 255, 164);"])
+,.member_aa4760:has(>.memberInner_a32223>.content_a6999d>.nameAndDecorators_e34d47>.name__16feb>.username__11d8c>[style="color: rgb(143, 255, 164);"])
+,.membersGroup__85843:has([style^="color: rgb(143, 255, 164);"])
+{
+    display: none;
+}
