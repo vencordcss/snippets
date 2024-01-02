@@ -2,6 +2,11 @@
 ,.repliedMessage_e2bf4a:has(>[style="color: rgb(143, 255, 164);"])
 ,.member_aa4760:has(>.memberInner_a32223>.content_a6999d>.nameAndDecorators_e34d47>.name__16feb>.username__11d8c>[style="color: rgb(143, 255, 164);"])
 ,.membersGroup__85843:has([style^="color: rgb(143, 255, 164);"])
+,[style$="rgb(143, 255, 164); cursor: pointer;"]
+,.typing__6fd1d:has(strong[style$="rgb(143, 255, 164); cursor: pointer;"])
 {
-    display: none;
+    display: none !important;
+}
+.isUnread__6f880 {
+    opacity: 0;
 }
