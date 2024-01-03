@@ -4,6 +4,8 @@
 ,.membersGroup__85843:has([style^="color: rgb(143, 255, 164);"])
 ,[style$="rgb(143, 255, 164); cursor: pointer;"]
 ,.typing__6fd1d:has(strong[style$="rgb(143, 255, 164); cursor: pointer;"])
+,.messageListItem__6a4fb:has(>.message__80c10>.contents_f41bb2>.header__39b23>.headerText_f47574>[style="color: rgb(143, 255, 164);"])+.messageListItem__6a4fb:not(:has(>.message__80c10>.contents_f41bb2>.header__39b23)) 
+,.container__56e52:has(>.messageContainer_aa7d14>.message_f3a9e4>.contents_f41bb2>.header__39b23>.headerText_f47574>[style="color: rgb(143, 255, 164);"])
 {
     display: none !important;
 }
